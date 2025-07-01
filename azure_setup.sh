@@ -34,7 +34,7 @@ AZURE_CREDENTIALS=$(az ad sp create-for-rbac \
   --name $SP_NAME \
   --role contributor \
   --scopes /subscriptions/$(az account show --query id --output tsv)/resourceGroups/$RESOURCE_GROUP_NAME \
-  --json-auth)
+  --sdk-auth)
 
 echo ""
 echo "=========================================="
