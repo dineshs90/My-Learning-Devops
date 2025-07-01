@@ -22,7 +22,7 @@ jobs:
     
     defaults:
       run:
-        working-directory: ./My-Learning-Devops  
+        working-directory: . 
     
     steps:
     - name: Checkout code
@@ -54,7 +54,7 @@ jobs:
     
     defaults:
       run:
-        working-directory: ./My-Learning-Devops 
+        working-directory: .
     
     steps:
     - name: Checkout code
